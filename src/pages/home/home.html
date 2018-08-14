@@ -1,0 +1,102 @@
+<ion-header style="margin-top:45px">
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="text-align: center; font-style: oblique;">One stop 
+      <ion-icon name="hand"></ion-icon> click App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row style="margin-top: 2em;">
+      <ion-col col-1></ion-col>
+      <ion-col col-5>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item (click)="onHcomClicked()">
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/hcom.png">
+              </ion-thumbnail>
+              <div style="position: absolute;right: 1rem;">
+                <ion-badge item-end style="background-color: #35bd5b;font-size: 2.5rem">2</ion-badge>
+              </div>
+
+            </ion-item>
+            <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              HCOM
+            </div>
+          </ion-list>
+        </ion-row>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/pyramid.png">
+              </ion-thumbnail>
+            </ion-item>
+             <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              PYRAMID
+               </div>
+          </ion-list>
+        </ion-row>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/bia.png">
+              </ion-thumbnail>
+            </ion-item>
+             <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              BIA TOOL
+               </div>
+          </ion-list>
+        </ion-row>
+
+      </ion-col>
+      <ion-col col-5>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/cis.png">
+              </ion-thumbnail>
+            </ion-item>
+             <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              CIS TOOL
+               </div>
+          </ion-list>
+        </ion-row>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/expense.png">
+              </ion-thumbnail>
+            </ion-item>
+             <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              EXPENSE
+               </div>
+          </ion-list>
+        </ion-row>
+        <ion-row style="margin-top: 2em;">
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/taleo.png">
+              </ion-thumbnail>
+            </ion-item>
+             <div style="text-align: center; font-size: larger; font-weight: 500; color: #23558c;">
+              TALEO
+               </div>
+          </ion-list>
+        </ion-row>
+      </ion-col>
+      <ion-col col-1></ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

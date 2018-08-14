@@ -1,0 +1,4 @@
+#Thu May 17 08:40:46 IST 2018
+base.0=C\:\\Murali\\POC\\android\\myApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
+renamed.0=classes.dex
+file.0=C\:\\Murali\\POC\\android\\myApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0\\classes.dex

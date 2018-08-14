@@ -1,0 +1,25 @@
+<ion-content>
+    <ion-grid>
+        <ion-row style="margin-top: 12em;">
+            <ion-col col-1></ion-col>
+            <ion-col col-10>
+                <form #values="ngForm" (ngSubmit)="logForm(values)">
+                    <ion-list>
+                        <ion-item>
+                            <ion-label stacked>Sesame</ion-label>
+                            <ion-input [(ngModel)]="user.name" name="name" type="email" email required  placeholder="x.y@socgen.com"></ion-input>
+                        </ion-item>
+                        <ion-item>
+                            <ion-label stacked>Password</ion-label>
+                            <ion-input [(ngModel)]="user.password" name="password" type="password" required></ion-input>
+                        </ion-item>
+                    </ion-list>
+                    <div padding>
+                        <button type="submit" name="submit" style="background-color:#e60028" ion-button color="primary" block>Login</button>
+                    </div>
+                </form>
+            </ion-col>
+            <ion-col col-1></ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

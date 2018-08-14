@@ -1,0 +1,70 @@
+<ion-header style="margin-top:45px">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style=" text-transform: uppercase; font-weight: 600;  margin-top: 0.9em;">{{filter}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content style="margin-top: 4em;">
+  <ion-grid>
+    <ion-card>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/male.png">
+        </ion-avatar>
+        <h2>Muralikrishna PAMIDIMARRI</h2>
+        <p>requested on: May 5, 2018</p>
+      </ion-item>
+
+      <ion-card-content>
+        <p>Leave applied from <b>May 10, 2018</b> to <b>May 12, 2018</b>. </p>
+      </ion-card-content>
+
+      <ion-row>
+        <ion-col>
+          <button (click)="onAccept()" style="color:#35bd5b" ion-button icon-left clear small>
+           <div>Accept</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button (click)="onReject()" style="color:#e60028" ion-button icon-left clear small>
+           <div>Reject</div>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/male.png">
+        </ion-avatar>
+        <h2>Muralikrishna PAMIDIMARRI</h2>
+        <p>requested on: May 5, 2018</p>
+      </ion-item>
+
+      <ion-card-content>
+        <p>Leave applied from <b>July 10, 2018</b> to <b>July 22, 2018</b>. </p>
+        <p style="color:#e60028">
+          <b>
+          Block leave
+          </b>
+        </p>
+      </ion-card-content>
+
+      <ion-row>
+        <ion-col>
+          <button style="color:#35bd5b" ion-button icon-left clear small>
+           <div>Accept</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button style="color:#e60028" ion-button icon-left clear small>
+           <div>Reject</div>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </ion-grid>
+</ion-content>
